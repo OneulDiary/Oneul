@@ -41,13 +41,13 @@ public class CalendarController {
 		
 		CalendarEmotion param = new CalendarEmotion();
 		param.setMemberId(id); // 유저의 감정아이콘 set
-		List<Map<String, Object>> emotionList = calendarService.getListCalendar(param);
+		List<Map<String, Object>> emotionList = calendarService.getListCalendar(param); // list<map>으로 데이터 가져오기
 		
 		ObjectMapper mapper = new ObjectMapper();
 		
 		String json = "";
 		try {
-			json = mapper.writeValueAsString(emotionList);
+			json = mapper.writeValueAsString(emotionList); // json으로 저장
 		} catch(Exception e) {
 		}
 		
