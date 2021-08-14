@@ -177,7 +177,7 @@ public class GratitudeDiaryController {
 						@DateTimeFormat(pattern = "yyyy-MM-dd")Date regDate,
 						@DateTimeFormat(pattern = "yyyy-MM-dd")Date prevRegDate,
 						CalendarEmotion calendarEmotion){
-		
+		// --------------------달력 서비스----------------------------
 		int cnt = calendarService.selectCalEmotionCnt(calendarEmotion);
 		int cntPrev = calendarService.selectCalEmotionPrevCnt(calendarEmotion);
 		
@@ -208,7 +208,7 @@ public class GratitudeDiaryController {
 					calendarService.deleteCalendarPrev(calendarEmotion); // 변경 전 날짜의 감정 삭제
 			} //날짜 변경 안했을 경우 변경없음
 		}
-		
+		// --------------------달력 서비스----------------------------
 		
 		service.updateDiary(gratitudeDiary);
 		
