@@ -1,5 +1,7 @@
 # :notebook: Oneul
 ## 웹앱 기반 다이어리 플랫폼
+Oneul은 여러분들의 추억을 기록 할 수 있는 다이어리 플랫폼입니다
+여러가지 일기를 통해서 다양한 추억을 기록하고, 나의 소중한 추억을 사람들과 공유하세요
 
 ## 👪 사용자
 - 소중한 추억을 기억하고 싶은 사람
@@ -22,6 +24,9 @@
   - MySQL
   - Maven
   - Tomcat
+
+## 📰 기획 및 설계
+- [명세서](https://docs.google.com/presentation/d/1N9gEYWDiLVEYyOITbhfaE4qbYg3TGyIdSIeq3QM84-c/edit#slide=id.ge82ab6e89e_0_0)
 
 ## 👩‍💻 Oneul 팀
 - Developer👩‍💻 [김연희](https://github.com/yeonhui-kim)
