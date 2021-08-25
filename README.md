@@ -20,9 +20,9 @@ Oneul은 여러분들의 추억을 기록 할 수 있는 다이어리 플랫폼�
   - JAVA
   - Thymeleaf
   - Spring Boot, Spring Security, MyBatis
+  - Maven
 - DevOps 
   - MySQL
-  - Maven
   - Tomcat
 
 ## 📰 기획 및 설계
